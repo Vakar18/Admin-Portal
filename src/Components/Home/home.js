@@ -130,7 +130,11 @@ const Home = () => {
   const totalPages = Math.ceil(filteredUsers.length / rowsPerPage);
   const start = page * rowsPerPage;
   const end = start + rowsPerPage;
-  const visibleUsers = filteredUsers.slice(start, end);
+  const visibleUsers = filteredUsers
+    .filter((user) =>
+      user.name.toLowerCase().includes(searchQuery.toLowerCase())
+    )
+    .slice(start, end);
 
   return (
     <Container>
@@ -162,6 +166,7 @@ const Home = () => {
       <CustomPagination
         rowsPerPage={rowsPerPage}
         count={filteredUsers.length}
+        totalPages={totalPages}
         page={page}
         onChangePage={handleChangePage}
         onChangeRowsPerPage={handleChangeRowsPerPage}
