@@ -25,37 +25,38 @@ A simple user management web application built with React and Material-UI.
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/user-management-app.git
+   git clone https://github.com/Vakar18/Admin-Portal
 
 
-# Navigate to the project directory:
+## Navigate to the project directory:
   cd user-management-app
 
-# Install dependencies:
+## Install dependencies:
   npm install
 
-# Start the development server:
+## Start the development server:
  npm start
 
-# Open your browser and access the application at http://localhost:3000
+## Open your browser and access the application at
+ http://localhost:3000
 
 
-# Usage
+## Usage
 1. Browse and search for users.
 2. Select users by clicking on checkboxes.
 3. Edit user details.
 4. Delete users individually or in bulk.
 
-# Technologies Used
+## Technologies Used
 1. React
 2. Material-UI
 3. PropTypes for type checking
 4. Notistack for displaying notifications
 
-# License
+## License
 This project is open source and available under the MIT License.
 
-# Author
-Vakar Ahmad
-Contact: vakarahmad99@gmail.com
-GitHub: Vakar18
+## Author
+1. Vakar Ahmad
+2. Contact: vakarahmad99@gmail.com
+3. GitHub: Vakar18
